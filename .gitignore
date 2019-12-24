@@ -1,0 +1,8 @@
+.idea
+node_modules
+dist
+app/css/fonts/icons.eot
+app/css/fonts/Icons.svg
+app/css/fonts/Icons.ttf
+app/css/fonts/Icons.woff
+app/css/fonts/Icons.woff2

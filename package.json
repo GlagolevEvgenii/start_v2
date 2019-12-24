@@ -1,0 +1,46 @@
+{
+  "name": "my_start",
+  "version": "1.0.0",
+  "description": "start_markup",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlagolevEvgenii/my-start.git"
+  },
+  "author": "GlagolevEvgenii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GlagolevEvgenii/my-start/issues"
+  },
+  "homepage": "https://github.com/GlagolevEvgenii/my-start#readme",
+  "devDependencies": {
+    "gulp-pug": "^4.0.1",
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-csslint": "^1.0.0",
+    "gulp-iconfont": "^9.2.0",
+    "gulp-iconfont-css": "^2.1.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "inputmask": "^4.0.9",
+    "jquery": "^3.4.1",
+    "swiper": "^5.2.0"
+  }
+}

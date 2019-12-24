@@ -1,0 +1,16 @@
+
+mixin breadcrumbs
+    .container
+        ul.breadcrumbs__wrapper
+            li.breadcrumbs__item
+                a.breadcrumbs__link(href='#' target="_blank")
+                    | Главная
+                span.divider /
+            - for (var i = 0; i < arguments.length; i++)
+             li.breadcrumbs__item
+                if ([i] != arguments.length - 1)
+                    a.breadcrumbs__link(href='#' target="_blank")=arguments[i]
+                    span.divider /   
+                else
+                    span.active.breadcrumbs__link=arguments[i]
+

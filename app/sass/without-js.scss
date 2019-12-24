@@ -1,0 +1,14 @@
+noscript {
+  background: #fff;
+  font-size: 14px;
+  width: 100%;
+  z-index: 9999999;
+  text-align: center;
+}
+noscript a {
+  color: red;
+  text-decoration: underline;
+}
+noscript a:hover {
+  text-decoration: none;
+}
