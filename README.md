@@ -6,6 +6,7 @@
     npm install gulp -g
 ******
  2.Install npm packages
+ ******
     npm i
 ******
  3. Let's code! 
